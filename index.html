@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firebase Starter</title>
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Firebase Login</h1>
+
+      <div class="row">
+        <input id="email" type="email" placeholder="Email" />
+        <input id="password" type="password" placeholder="Password" />
+      </div>
+
+      <div class="row">
+        <button id="signupBtn">Sign up</button>
+        <button id="loginBtn">Log in</button>
+        <button id="logoutBtn">Log out</button>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <button id="saveProfileBtn">Save profile to Firestore</button>
+        <button id="loadProfileBtn">Load profile</button>
+      </div>
+
+      <pre id="output"></pre>
+    </div>
+
+    <script type="module" src="script/login.js"></script>
+  </body>
+</html>

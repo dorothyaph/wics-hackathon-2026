@@ -1,0 +1,17 @@
+body {
+    font-family: system-ui, Arial; background: #f6f7fb; margin: 0;
+}
+.card { 
+    max-width: 520px; margin: 48px auto; padding: 20px; background: white; border-radius: 12px;
+}
+.row {
+    display: flex; gap: 10px; margin: 10px 0; flex-wrap: wrap;
+}
+input {
+    flex: 1; padding: 10px; border-radius: 10px; border: 1px solid #ddd;
+}
+button {
+    padding: 10px 12px; border-radius: 10px; border: 1px solid #ddd; background: #fff; cursor: pointer;
+}
+pre {background: #111; color: #0f0; padding: 12px; border-radius: 10px; min-height: 90px; overflow: auto;
+}
